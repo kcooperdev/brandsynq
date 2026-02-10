@@ -1,11 +1,5 @@
 <div align="center">
-  <img src="public/blk-tech-connect.png" alt="BrandSynq - Community" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="public/logo.png" alt="BrandSynq Logo" width="180" />
+  <img src="public/logo.png" alt="BrandSynq" width="200" />
 </div>
 
 # BrandSynq
