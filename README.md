@@ -1,21 +1,47 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img src="public/blk-tech-connect.png" alt="BrandSynq - Community" width="100%" />
 </div>
 
-# Run and deploy your AI Studio app
+<br />
 
-This contains everything you need to run your app locally.
+<div align="center">
+  <img src="public/logo.png" alt="BrandSynq Logo" width="180" />
+</div>
 
-View your app in AI Studio: https://ai.studio/apps/drive/1p2mlY594oA-emICWSyUio3V_C8lMtf7D
+# BrandSynq
 
-## Run Locally
+**Tech that moves communities forward.**
 
-**Prerequisites:**  Node.js
+BrandSynq is a technology company dedicated to bridging the gap between innovation and community. We build digital infrastructure for the overlooked and the ambitious.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# brandsynq
+## Mission
+
+Equitable access to tech innovation—so everyone, not just a few, can build and grow.
+
+---
+
+## Vision
+
+Tech that moves everyone forward. We imagine a world where underrepresented talent has the same access to opportunities, mentorship, and resources in the technology sector.
+
+---
+
+## Values
+
+- **Inclusion** — Diverse voices at the table
+- **Innovation** — Bold ideas, shipped
+- **Impact** — Real-world change, not just deliverables
+
+---
+
+## What We Do
+
+- **Analytics** — Turn data into decisions that move the needle
+- **App Development** — From concept to launch, products that work
+- **Growth Strategy** — Playbooks that help founders scale
+
+---
+
+#

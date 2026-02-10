@@ -1,0 +1,7 @@
+{
+  "name": "BrandSynq LLC",
+  "description": "A high-performance, dark-themed corporate website for BrandSynq LLC, featuring tech-forward design, community-focused initiatives, and premium gold accents.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
