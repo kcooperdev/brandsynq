@@ -378,7 +378,7 @@ const AboutPage: React.FC = () => {
 
             <Reveal delay={200}>
               <p className="text-white/60 text-base md:text-lg leading-relaxed font-light max-w-lg">
-                Self-taught engineer. Community architect. Ecosystem catalyst. Khalif built BLK Tech Connect from a simple idea into a <span className="text-white font-medium">750+ member network</span> of technologists, innovators, and creators -- in under a year.
+                Self-taught engineer. Community architect. Ecosystem catalyst. Khalif built BLK Tech Connect from a simple idea in Baltimore into a <span className="text-white font-medium">750+ member network</span> of technologists, innovators, and creators -- in under a year.
               </p>
             </Reveal>
 
@@ -481,11 +481,11 @@ const InitiativesPage: React.FC = () => {
                 <h4 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold tracking-tight">BLK Tech Connect</h4>
                 
                 <p className="text-white/50 leading-relaxed font-light text-sm md:text-base max-w-md">
-                  Redefining the tech pipeline. We build networks that turn isolated talent into collaborative powerhouses. BLK Tech Connect creates pathways for underrepresented professionals to access opportunities, mentorship, and resources in the technology sector.
+                  Baltimore-based. Redefining the tech pipeline. We build networks that turn isolated talent into collaborative powerhouses. BLK Tech Connect creates pathways for underrepresented professionals to access opportunities, mentorship, and resources in the technology sector.
                 </p>
 
                 <div className="flex flex-wrap gap-2 pt-2">
-                  {['Community', 'Inclusion', 'Tech Access', 'Mentorship'].map(tag => (
+                  {['Baltimore', 'Community', 'Inclusion', 'Tech Access', 'Mentorship'].map(tag => (
                     <span key={tag} className="px-3 py-1 text-[9px] sm:text-[10px] uppercase tracking-widest font-bold border border-white/10 text-white/40">
                       {tag}
                     </span>
