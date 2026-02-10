@@ -42,3 +42,5 @@ CHANGELOG.md
 *.njsproj
 *.sln
 *.sw?
+
+.env.local

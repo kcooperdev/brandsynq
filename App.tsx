@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { BrowserRouter, Routes, Route, Link, NavLink, useLocation } from 'react-router-dom';
+import { usePostHog } from 'posthog-js/react';
 import { 
   Menu, 
   X, 
@@ -57,14 +58,29 @@ const useInView = (threshold = 0.12) => {
 };
 
 // ============================================================
-// SCROLL TO TOP ON ROUTE CHANGE
+// SCROLL TO TOP ON ROUTE CHANGE + POSTHOG PAGE VIEW
 // ============================================================
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
+  const posthog = usePostHog();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+  useEffect(() => {
+    if (posthog) {
+      posthog.capture('$pageview', { path: pathname });
+    }
+  }, [pathname, posthog]);
+  useEffect(() => {
+    if (posthog) {
+      const stored = localStorage.getItem('brandsynq_visitor_id');
+      const visitorId = stored || crypto.randomUUID();
+      if (!stored) localStorage.setItem('brandsynq_visitor_id', visitorId);
+      posthog.identify(visitorId);
+      if (import.meta.env.DEV) (window as any).posthog = posthog;
+    }
+  }, [posthog]);
   return null;
 };
 
